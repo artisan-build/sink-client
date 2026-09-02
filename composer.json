@@ -1,19 +1,14 @@
 {
     "name": "artisan-build/sink-client",
     "description": "The capture transport side of Sink. Installed in Laravel apps whose outbound mail should be captured by a Sink server.",
-    "keywords": ["sink", "mail", "laravel", "testing"],
+    "keywords": [
+        "sink",
+        "mail",
+        "laravel",
+        "testing"
+    ],
     "license": "MIT",
     "type": "library",
-    "version": "1.0.0",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../sink-contracts",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "require": {
         "php": "^8.3",
         "artisan-build/bfc-client": "^0.1",
